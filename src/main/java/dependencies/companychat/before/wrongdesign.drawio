@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2023-06-10T18:35:35.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="sumwpUDFVDB8hBCUe3PB" version="21.3.8" type="device">
+  <diagram name="Page-1" id="zPFfAeWLgi0K8CiBb0zO">
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z6dHhof6Qh459luWj3b7-1" value="Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="80" width="260" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="z6dHhof6Qh459luWj3b7-2" value="- id : String&#xa;- name : String&#xa;- employees: List&lt;Employee&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="z6dHhof6Qh459luWj3b7-1" vertex="1">
+          <mxGeometry y="26" width="260" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="z6dHhof6Qh459luWj3b7-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="z6dHhof6Qh459luWj3b7-1" vertex="1">
+          <mxGeometry y="90" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="z6dHhof6Qh459luWj3b7-4" value="+ addEmployee(emp : Employee)&#xa;+ sendMessageToEveryone(String message)&#xa;+ sendDirectMessage(empId : String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="z6dHhof6Qh459luWj3b7-1" vertex="1">
+          <mxGeometry y="98" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z6dHhof6Qh459luWj3b7-5" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.707;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="z6dHhof6Qh459luWj3b7-1" source="z6dHhof6Qh459luWj3b7-2" target="z6dHhof6Qh459luWj3b7-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="70" as="sourcePoint" />
+            <mxPoint x="200" y="-80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="58" />
+              <mxPoint x="360" y="-40" />
+              <mxPoint x="184" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z6dHhof6Qh459luWj3b7-6" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="z6dHhof6Qh459luWj3b7-5" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

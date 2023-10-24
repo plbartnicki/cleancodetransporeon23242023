@@ -1,0 +1,6 @@
+Zadanie
+a) Przeanalizuj kod w pakiecie largesetofclasses.beforerefactor
+b) Korzystając z https://app.diagrams.net/ owórz plik largesetofclasses.redesig/solution.drawio i przeanalizuj ideę która będzie prowadziła do przeprojektowania rozwiązania z pakietulargesetofclasses.beforerefactor
+c) Poprzez funkcję f(n, k)   (gdzie n to liczba systemów operacyjnych, k - liczba kontrolek), przedstaw wzór na liczbę wszystkich klas w rozwiązaniu “przed refaktorem” na diagramie. Ile klas należałoby dodać do pakietu largesetofclasses.beforerefactor w przypadku dodania obsługi nowego systemu operacyjnego, zakładając że chcemy obsługiwać takie i tylko takie typy kontrolek jak w istniejących systemach ?
+d) Analogicznie do punktu c odpowiedz na pytania w kontekście rozwiązania “po refaktorze”
+e) Bazując na diagramie klas “po refaktorze” z pliku solution.drawio, przeprojektuj rozwiązanie z pakietu before (nowe rozwiązanie umieść w pakiecie after)

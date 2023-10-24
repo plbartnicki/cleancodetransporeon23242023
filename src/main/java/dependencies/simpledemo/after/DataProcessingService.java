@@ -1,4 +1,4 @@
-package dependencies.companychat.before.after;
+package dependencies.simpledemo.after;
 
 public interface DataProcessingService
 {

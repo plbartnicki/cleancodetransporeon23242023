@@ -1,4 +1,4 @@
-package dependencies.companychat.before.before;
+package dependencies.simpledemo.before;
 
 public class DataStoringService
 {

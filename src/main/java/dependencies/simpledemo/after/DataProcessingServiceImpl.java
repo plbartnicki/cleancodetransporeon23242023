@@ -1,4 +1,4 @@
-package dependencies.companychat.before.after;
+package dependencies.simpledemo.after;
 
 /* W oryginalnym wzorcu dependency injection, istnieje specjalny serwis do wstrzykiwania zaleznosci */
 public class DataProcessingServiceImpl implements DataProcessingService

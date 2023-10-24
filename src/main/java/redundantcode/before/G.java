@@ -1,6 +1,6 @@
-package before;
+package redundantcode.before;
 
-public class F extends E
+public class G extends E
 {
 	private void h() {
 		System.out.println("some logic of h");
@@ -8,7 +8,7 @@ public class F extends E
 
 	public void start() {
 		h();
-		System.out.println("some logic of F.start");
+		System.out.println("some logic of G.start");
 		fn1();
 	}
 }

@@ -1,4 +1,4 @@
-package before;
+package redundantcode.before;
 
 public class Main
 {

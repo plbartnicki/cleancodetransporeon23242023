@@ -17,6 +17,11 @@ package largesetofclasses.afterrefaactor;
 //F(n, k) = 2 + n + k
 public class Main {
     public static void main(String[] args) {
+        Button b1 = new Button(101, 201);
+        GUIElementRenderer linuxButton = new GUIElementRendererLinuxStyle(b1);
+        linuxButton.render();
 
+        GUIElementRenderer windowsCheckBox = new GUIElementRendererInWindowsStyle(b1);
+        windowsCheckBox.render();
     }
 }

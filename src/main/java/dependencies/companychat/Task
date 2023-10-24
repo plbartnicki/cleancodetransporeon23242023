@@ -4,4 +4,12 @@ który przedstawia relacje pomiędzy klasami pewnej implementacji.
 Załóżmy że wszyscy pracownicy należą do tego samego zespołu, który pracuje nad tym samym projektem, więc dowolny pracownik powinien mieć możliwość komunikacji z dowolnym innym pracownikiem.
 W przypadku trzech pracowników, będzie więc sześć powiązań pomiędzy wszystkimi obiektami.
 Ile powiązań tego typu  będzie w przypadku n pracowników?
+
+* - *  n = 2  mamy 2 zaleznosci
+   *
+  / \   n = 3 mamy 6  zaleznosc
+ *---*
+
+ dla n pracownkow mamy n(n-1) = n^2 - n
+
 Przeprojektuj rozwiązanie (zaimplementuj kod), do takiej postaci, żeby w przypadku n pracowników, całkowita liczba powiązań (pomiędzy obiektami wszystkich klas) wynosiła 2n
